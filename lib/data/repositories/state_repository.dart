@@ -1,6 +1,7 @@
+import 'package:history_malaysia/data/model/state_model.dart';
+
 import '../../domain/entities/state_entity.dart';
 import '../data_providers/state_api_provider.dart';
-import '../model/state_model.dart';
 
 class StateRepository {
   final StateApiProvider apiProvider;
